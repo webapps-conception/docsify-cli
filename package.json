@@ -31,7 +31,8 @@
     "prebuild": "rimraf bin",
     "build": "rollup -c",
     "prerelease": "npm run build",
-    "release": "standard-version -a"
+    "release": "standard-version -a",
+    "install-pack": "npm pack && npm install ./docsify-cli-*.tgz -g"
   },
   "husky": {
     "hooks": {
