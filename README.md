@@ -39,8 +39,8 @@
 Install `docsify-cli` via `npm` or `yarn` globally.
 
 ```shell
-npm i docsify-cli -g
-# yarn global add docsify-cli
+npm i @webappsconception/docsify-cli -g
+# yarn global add @webappsconception/docsify-cli
 ```
 
 ## Usage
