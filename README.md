@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
- 🖌 docsify cli - A magical documentation generator.
+ 🖌 docsify cli - A magical documentation generator. - upgraded by Rudy
 </p>
 
 <p align="center">
@@ -78,9 +78,9 @@ docsify init [path] [--local false] [--theme vue] [--plugins false]
 Run a server on `localhost` with livereload.
 
 ```shell
-docsify serve [path] [--open false] [--port 3000]
+docsify serve [path] [--open false] [--ip 127.0.0.1] [--port 3000] [--log logfile]
 
-# docsify s [path] [-o false] [-p 3000]
+# docsify s [path] [-o false] [-I 127.0.0.1] [-p 3000] [-l logfile]
 ```
 
 - `--open` option:
@@ -93,6 +93,15 @@ docsify serve [path] [--open false] [--port 3000]
   - Type: number
   - Default: `3000`
   - Description: Choose a listen port, defaults to `3000`.
+- `--ip` option:
+  - Shorthand: `-I`
+  - Type: number
+  - Default: `127.0.0.1`
+  - Description: Choose a adresse ip of the listening interface, defaults to `127.0.0.1`.
+- `--log` option:
+  - Shorthand: `-l`
+  - Type: number
+  - Description: Log file.
 
 ### `generate` command
 

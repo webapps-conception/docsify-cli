@@ -1,0 +1,22 @@
+{
+  "epilog": "Documentation:\n  https://docsifyjs.github.io/docsify\n  https://github.com/webapps-conception/docsify-cli\n\nDevelopment:\n  https://github.com/docsifyjs/docsify-cli/blob/master/CONTRIBUTING.md\n",
+  "group.globaloptions": "Options globales",
+  "help": "Afficher l'aide",
+  "init": "Crée de nouveaux documents",
+  "start": "Serveur pour SSR",
+  "init.local": "Copiez les fichiers docsify en local. Pour définir explicitement --local sur false, vous pouvez utiliser --no-local.",
+  "init.theme": "Fichier de thème à utiliser.",
+  "init.plugins": "Une liste de plugins à utiliser.",
+  "serve": "Exécutez le serveur local pour prévisualiser le site.",
+  "serve.open": "Ouvrez les documents dans le navigateur par défaut. Pour définir explicitement --open sur false, vous pouvez utiliser --no-open.",
+  "serve.port": "Port d'écoute.",
+  "serve.ip": "Adresse IP de l'interface d'écoute.",
+  "serve.indexname": "Nom de fichier personnalisé au lieu de index.html à servir par défaut",
+  "server.log": "Fichier journal",
+  "generate": "Les générateurs de Docsify",
+  "generate.sidebar": "Générer un fichier de barre latérale",
+  "generate.overwrite": "Autoriser l'écrasement des fichiers générés",
+  "livereload.port": "livereload Port d'écoute.",
+  "usage": "Usage",
+  "version": "Afficher le numéro de version"
+}

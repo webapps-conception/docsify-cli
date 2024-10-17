@@ -1,13 +1,13 @@
 {
   "name": "docsify-cli",
-  "version": "4.4.4",
-  "description": "A magical documentation generator.",
+  "version": "4.4.5",
+  "description": "A magical documentation generator. - upgraded by Rudy",
   "author": {
-    "name": "qingwei-li",
-    "email": "cinwell.li@gmail.com",
-    "url": "https://github.com/QingWei-Li"
+    "name": "webapps-conception",
+    "email": "rudy.t54230@gmail.com",
+    "url": "https://github.com/webapps-conception"
   },
-  "homepage": "https://github.com/docsifyjs/docsify-cli#readme",
+  "homepage": "https://github.com/webapps-conception/docsify-cli#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/docsifyjs/docsify-cli.git"
@@ -22,6 +22,8 @@
     "docsify": "bin/docsify"
   },
   "scripts": {
+    "dev": "node bin/docsify serve",
+    "dev-rudy": "node bin/docsify serve c:/app/docsify-notes/docs -I 127.0.0.1 --port 8081 --log c:/temp/access.log",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "pretest": "npm run lint",
@@ -61,10 +63,13 @@
     "docsify": "^4.12.2",
     "docsify-server-renderer": ">=4.13.1",
     "enquirer": "^2.3.6",
+    "fs": "^0.0.1-security",
     "fs-extra": "^8.1.0",
     "get-port": "^5.0.0",
     "livereload": "^0.9.2",
     "lru-cache": "^5.1.1",
+    "moment-timezone": "^0.5.46",
+    "morgan": "^1.10.0",
     "open": "^6.4.0",
     "serve-static": "^1.12.1",
     "update-notifier": "^4.1.0",
