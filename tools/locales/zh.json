@@ -12,7 +12,7 @@
   "serve.port": "设置端口",
   "serve.ip": "監聽介面的IP位址。",
   "serve.indexname": "自定义入口文件名，代替默认的 index.html",
-  "server.log": "記錄檔",
+  "serve.log": "記錄檔",
   "generate": "docsify 的生成器",
   "generate.sidebar": "生成侧边栏文件",
   "generate.overwrite": "允许覆盖生成的文件",

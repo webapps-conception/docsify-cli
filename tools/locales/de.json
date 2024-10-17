@@ -11,7 +11,7 @@
   "serve.port": "Hören Sie den Port.",
   "serve.ip": "IP-Adresse der Abhörschnittstelle.",
   "serve.indexname": "Benutzerdefinierter Dateiname anstelle von index.html, der standardmäßig bereitgestellt wird.",
-  "server.log": "Protokolldatei",
+  "serve.log": "Protokolldatei",
   "livereload.port": "Livereload-Listen-Port.",
   "usage": "Anwendung",
   "version": "Zeige Versionsnummer an"

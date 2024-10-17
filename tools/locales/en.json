@@ -12,7 +12,7 @@
   "serve.port": "Listen port.",
   "serve.ip": "IP address of the listening interface.",
   "serve.indexname": "Custom filename instead of index.html to serve by default",
-  "server.log": "Log file",
+  "serve.log": "Log file",
   "generate": "Docsify's generators",
   "generate.sidebar": "Generate sidebar file",
   "generate.overwrite": "Allow overwrite generated files",

@@ -12,7 +12,7 @@
   "serve.port": "Port d'écoute.",
   "serve.ip": "Adresse IP de l'interface d'écoute.",
   "serve.indexname": "Nom de fichier personnalisé au lieu de index.html à servir par défaut",
-  "server.log": "Fichier journal",
+  "serve.log": "Fichier journal",
   "generate": "Les générateurs de Docsify",
   "generate.sidebar": "Générer un fichier de barre latérale",
   "generate.overwrite": "Autoriser l'écrasement des fichiers générés",
