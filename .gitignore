@@ -6,3 +6,4 @@ yarn.lock
 bin/
 test_docs/
 .idea
+*.tgz
