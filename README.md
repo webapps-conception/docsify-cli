@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
- 🖌 docsify cli - A magical documentation generator. - upgraded by Rudy
+ 🖌 docsify cli - A magical documentation generator, upgraded by Rudy.
 </p>
 
 <p align="center">
