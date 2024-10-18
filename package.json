@@ -31,7 +31,7 @@
     "build": "rollup -c",
     "prerelease": "npm run build",
     "release": "standard-version -a",
-    "clean": "npx rimraf docsify-cli-*.tgz",
+    "prepack": "rimraf *docsify-cli-*.tgz",
     "pack": "npm pack",
     "install-pack": "npm install docsify-cli-*.tgz -g"
   },
