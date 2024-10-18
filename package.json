@@ -1,6 +1,6 @@
 {
   "name": "@webappsconception/docsify-cli",
-  "version": "5.0.0",
+  "version": "5.0.2",
   "description": "A magical documentation generator, upgraded by Rudy.",
   "author": {
     "name": "webappsconception",
@@ -25,15 +25,16 @@
     "dev": "node bin/docsify serve",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "pretest": "npm run lint",
+    "lint:npm": "npm run lint",
+    "pretest": "rimraf e2e/cli.test.js.snap",
     "test": "ava",
     "prebuild": "rimraf bin",
     "build": "rollup -c",
     "prerelease": "npm run build",
     "release": "standard-version -a",
-    "prepack": "rimraf *docsify-cli-*.tgz",
+    "prepack": "rimraf webappsconception-docsify-cli-*.tgz",
     "pack": "npm pack",
-    "install-pack": "npm install docsify-cli-*.tgz -g"
+    "install-pack": "sudo npm install webappsconception-docsify-cli-*.tgz -g"
   },
   "husky": {
     "hooks": {

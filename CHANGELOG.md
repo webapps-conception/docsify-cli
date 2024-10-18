@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.0.2](https://github.com/webapps-conception/docsify-cli/compare/v5.0.0...v5.0.2) (2024-10-18)
+
 ### [5.0.0](https://github.com/webapps-conception/docsify-cli/compare/v4.4.4...v5.0.0) (2024-10-18)
 
 * serve : ajout de l'option --ip afin de choisir l'interface d'écoute afin de sécuriser l'accès au service docsify.
