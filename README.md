@@ -9,7 +9,7 @@
 </p>
 
 
-?>💡 This project uses version **4.4.4** of the official repository [docsifyjs/docsify-cli](https://github.com/docsifyjs/docsify-cli) in order to meet a security need at the network interface level of listening, and traceability of connections.
+>💡 This project uses version **4.4.4** of the official repository [docsifyjs/docsify-cli](https://github.com/docsifyjs/docsify-cli) in order to meet a security need at the network interface level of listening, and traceability of connections.
 
 
 <p align="center">
