@@ -9,7 +9,7 @@
 </p>
 
 
->💡 This project uses version **4.4.4** of the official repository [docsifyjs/docsify-cli](https://github.com/docsifyjs/docsify-cli) in order to meet a security need at the network interface level of listening, and traceability of connections.
+>💡 **Note Rudy** : This project uses version **4.4.4** of the official repository [docsifyjs/docsify-cli](https://github.com/docsifyjs/docsify-cli) in order to meet a security need at the network interface level of listening, and traceability of connections.
 
 
 <p align="center">
@@ -97,13 +97,13 @@ docsify serve [path] [--open false] [--ip 127.0.0.1] [--port 3000] [--log logfil
   - Type: number
   - Default: `3000`
   - Description: Choose a listen port, defaults to `3000`.
-- `--ip` option:
-  - Shorthand: `-I`
+- **`--ip`** option:
+  - Shorthand: **`-I`**
   - Type: number
   - Default: `127.0.0.1`
   - Description: Choose a adresse ip of the listening interface, defaults to `127.0.0.1`.
-- `--log` option:
-  - Shorthand: `-l`
+- **`--log`** option:
+  - Shorthand: **`-l`**
   - Type: number
   - Description: Log file.
 

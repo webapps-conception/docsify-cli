@@ -1,6 +1,6 @@
 {
   "name": "@webappsconception/docsify-cli",
-  "version": "4.4.6",
+  "version": "5.0.0",
   "description": "A magical documentation generator, upgraded by Rudy.",
   "author": {
     "name": "webappsconception",
@@ -10,7 +10,7 @@
   "homepage": "https://github.com/webapps-conception/docsify-cli#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/docsifyjs/docsify-cli.git"
+    "url": "git+https://github.com/webapps-conception/docsify-cli.git"
   },
   "license": "MIT",
   "engines": {
@@ -31,7 +31,9 @@
     "build": "rollup -c",
     "prerelease": "npm run build",
     "release": "standard-version -a",
-    "install-pack": "npm pack && npm install ./docsify-cli-*.tgz -g"
+    "clean": "npx rimraf docsify-cli-*.tgz",
+    "pack": "npm pack",
+    "install-pack": "npm install docsify-cli-*.tgz -g"
   },
   "husky": {
     "hooks": {
@@ -85,7 +87,7 @@
     "execa": "^4.0.0",
     "husky": "^3.1.0",
     "lint-staged": "^9.5.0",
-    "rimraf": "^3.0.0",
+    "rimraf": "^3.0.2",
     "rollup": "^1.27.13",
     "rollup-plugin-executable": "^1.5.2",
     "standard-version": "^9.0.0"

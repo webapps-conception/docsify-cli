@@ -2,17 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [4.4.6](https://github.com/webapps-conception/docsify-cli/compare/v4.4.5...v4.4.6) (2024-10-17)
-
-* Correctif du bug dans la gestion de l'option --log.
-* correctif des fichiers de traductions.
-
-### [4.4.5](https://github.com/webapps-conception/docsify-cli/compare/v4.4.5...v4.4.5) (2024-10-17)
+### [5.0.0](https://github.com/webapps-conception/docsify-cli/compare/v4.4.4...v5.0.0) (2024-10-18)
 
 * serve : ajout de l'option --ip afin de choisir l'interface d'écoute afin de sécuriser l'accès au service docsify.
 * serve : ajout de l'option --log afin d'obtenir les traces du service docsify.
 * ajout du fichier de traduction FR.
 * mise à jour des nouvelles options dans les fichiers de traduction.
+* Correctif du bug dans la gestion de l'option --log.
+* correctif des fichiers de traductions.
 
 ### [4.4.4](https://github.com/docsifyjs/docsify-cli/compare/v4.4.3...v4.4.4) (2022-03-12)
 
