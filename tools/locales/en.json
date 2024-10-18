@@ -1,5 +1,5 @@
 {
-  "epilog": "Documentation:\n  https://docsifyjs.github.io/docsify\n  https://github.com/webapps-conception/docsify-cli\n\nDevelopment:\n  https://github.com/docsifyjs/docsify-cli/blob/master/CONTRIBUTING.md\n",
+  "epilog": "Documentation:\n  https://docsifyjs.github.io/docsify\n  https://github.com/webapps-conception/docsify-cli\n\nDevelopment:\n  https://github.com/webapps-conception/docsify-cli/blob/master/CONTRIBUTING.md\n",
   "group.globaloptions": "Global Options",
   "help": "Show help",
   "init": "Creates new docs",
