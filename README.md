@@ -8,7 +8,9 @@
  🖌 docsify cli - A magical documentation generator, upgraded by Rudy.
 </p>
 
-💡 This project uses version 4.4.4 of the official repository [docsifyjs/docsify-cli](https://github.com/docsifyjs/docsify-cli) in order to meet a security need at the network interface level of listening, and traceability of connections.
+<p align="center">
+💡 This project uses version **4.4.4** of the official repository [docsifyjs/docsify-cli](https://github.com/docsifyjs/docsify-cli) in order to meet a security need at the network interface level of listening, and traceability of connections.
+</p>
 
 <p align="center">
   <a href="#backers"><img alt="Backers on Open Collective" src="https://opencollective.com/docsify/backers/badge.svg?style=flat-square"></a>
