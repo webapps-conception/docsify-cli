@@ -27,7 +27,7 @@
     "lint:fix": "eslint . --fix",
     "pretest": "npm run lint",
     "pretest:clean": "rimraf e2e/cli.test.js.snap",
-    "test": "export LANG=en_US.UTF-8 && ava",
+    "test": "ava",
     "prebuild": "rimraf bin",
     "build": "rollup -c",
     "prerelease": "npm run build",
