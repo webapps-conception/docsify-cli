@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [5.0.4](https://github.com/webapps-conception/docsify-cli/compare/v5.0.3...v5.0.4) (2024-10-27)
 
+* Upgrade des librairies node.
+
 ### [5.0.3](https://github.com/webapps-conception/docsify-cli/compare/v5.0.2...v5.0.3) (2024-10-27)
 
 * Ajout du test de la directory du fichier log, et arrêt du programme en code retour 1 en cas d'anomalie.
