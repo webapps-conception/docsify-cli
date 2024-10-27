@@ -1,6 +1,6 @@
 {
   "name": "@webappsconception/docsify-cli",
-  "version": "5.0.3",
+  "version": "5.0.4",
   "description": "A magical documentation generator, upgraded by Rudy.",
   "author": {
     "name": "webappsconception",
@@ -33,6 +33,7 @@
     "prerelease": "npm run build",
     "release": "standard-version -a",
     "prepack": "rimraf webappsconception-docsify-cli-*.tgz",
+    "upgrade": "npm upgrade --latest",
     "pack": "npm pack",
     "install-pack": "sudo npm install webappsconception-docsify-cli-*.tgz -g"
   },
